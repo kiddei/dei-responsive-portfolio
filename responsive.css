@@ -139,7 +139,7 @@ body{
 
  /*Footer*/
 
- hr{
+ #footer-hr{
   margin: 130px 0px 0px 0px;
 }
 
@@ -370,6 +370,10 @@ body{
     margin-left: -200px;
   }
 
+  #footer-hr{
+    display: none;
+  }
+
   #hello-text{
     font-size: 90px;
   }
@@ -571,6 +575,18 @@ body{
   .option-icon{
     width: 80px;
   }
+
+  .footer-text{
+    font-size: 18px;
+  }
+
+  .footer-info{
+    font-size: 15px;
+  }
+
+  .logo{
+    margin: 0px 0px 0px 0px;
+  }
 }
 
 @media (max-width:380px) {
@@ -594,6 +610,17 @@ body{
     margin-right: 5%;
   }
 
+  .footer-text{
+    font-size: 15px;
+  }
+
+  .footer-info{
+    font-size: 12px;
+  }
+
+  .logo{
+    width: 22px;
+  }
 }
 
 
