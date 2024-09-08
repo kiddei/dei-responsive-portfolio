@@ -353,18 +353,101 @@ body{
   }
 }
 
+@media (max-width:800px) {
+  .pic-contianer{
+    width: 70%;
+  }
+}
+
 @media (max-width:515px) {
   #name{
     font-size: 6.0vb;
   }
-}
 
-@media (max-width: 475px){
-  .website-title{
-    text-align: center;
+  .icon-title{
+    width: 90px;
   }
 
-  .main{
-    display: block;
+  .pic-contianer{
+    width: 70%;
+  }
+
+  #profile-pic{
+    justify-content: start;
+    align-self: start;
+  }
+}
+
+@media (max-width: 485px){
+  .welcome-text{
+    margin-left: 30px;
+    justify-content: start;
+    align-self: start;
+  }
+
+  .website-title{
+    margin-left: 10px;
+  }
+}
+
+@media (max-width:435px) {
+  #name{
+    font-size: 5.0vb;
+  }
+
+  .icon-title{
+    width: 80px;
+  }
+
+  .option-icon{
+    width: 90px;
+  }
+
+  .pic-contianer{
+    width: 80%;
+  }
+}
+
+@media (max-width:415px) {
+  .option-icon{
+    width: 80px;
+  }
+}
+
+@media (max-width:380px) {
+  #name{
+    font-size: 4.5vb;
+  }
+
+  .icon-title{
+    width: 70px;
+  }
+
+  .option-icon{
+    width: 70px;
+  }
+
+
+}
+
+
+@media (max-width:365px) {
+  .welcome-text{
+    margin-left: 15px;
+  }
+}
+
+@media (max-width:344px) {
+  .option-icon{
+    width: 60px;
+  }
+
+  #name{
+    font-size: 4.0vb;
+  }
+
+  .icon-title{
+    width: 60px;
+    margin-top: 50px;
   }
 }
