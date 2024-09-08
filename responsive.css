@@ -135,6 +135,55 @@ body{
   margin-top: 10px;
 }
 
+
+
+ /*Footer*/
+
+ hr{
+  margin: 130px 0px 0px 0px;
+}
+
+
+.footer{
+  margin: 30px 3% 100px 3%;
+  display: flex;
+}
+
+.phone-container{
+  display: flex;
+  flex-direction: column;
+  margin-right: 25%;
+}
+
+.email-container{
+  display: flex;
+  flex-direction: column;
+  margin-right: 25%;
+}
+
+.footer-text{
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.footer-info{
+  font-size: 18px;
+}
+
+.icons{
+  flex-direction: row;
+}
+
+.logo{
+  width: 33px;
+  margin: 0px 5px 0px 0px;
+  cursor: pointer;
+}
+
+
+
+
+/* RESPONSIVE */
 @media (max-width:1750px) {
   .main{
     margin-left: 200px;
@@ -353,11 +402,100 @@ body{
   }
 }
 
+@media (max-width:956px) {
+  .footer-text{
+    font-size: 22px;
+  }
+
+  .footer-info{
+    font-size: 17px;
+  }
+
+  .logo{
+    width: 28px;
+    margin: 0px 5px 0px 0px;
+  }
+  
+}
+
+@media (max-width:906px) {
+  .footer-text{
+    font-size: 21px;
+  }
+
+  .footer-info{
+    font-size: 16px;
+  }
+
+  .logo{
+    width: 28px;
+    margin: 0px 5px 0px 0px;
+  }
+  
+}
+
+@media (max-width:855px) {
+  .footer-text{
+    font-size: 20px;
+  }
+
+  .logo{
+    width: 28px;
+    margin: 0px 5px 0px 0px;
+  }
+  
+}
+
+@media (max-width:680px) {
+  .footer-text{
+    font-size: 20px;
+  }
+
+  .logo{
+    width: 28px;
+    margin: 0px 4px 0px 0px;
+  }
+  
+  .phone-container{
+    margin-right: 20%;
+  }
+
+  .email-container{
+    margin-right: 20%;
+  }
+
+}
+
+
+
 @media (max-width:800px) {
   .pic-contianer{
     width: 70%;
   }
 }
+
+@media (max-width:588px) { 
+  .phone-container{
+    margin-right: 18%;
+  }
+
+  .email-container{
+    margin-right: 18%;
+  }
+
+}
+
+@media (max-width:551px) { 
+  .phone-container{
+    margin-right: 16%;
+  }
+
+  .email-container{
+    margin-right: 16%;
+  }
+
+}
+
 
 @media (max-width:515px) {
   #name{
@@ -376,6 +514,14 @@ body{
     justify-content: start;
     align-self: start;
   }
+
+  .phone-container{
+    margin-right: 13%;
+  }
+
+  .email-container{
+    margin-right: 13%;
+  }
 }
 
 @media (max-width: 485px){
@@ -388,6 +534,11 @@ body{
   .website-title{
     margin-left: 10px;
   }
+
+  .follow-container{
+    margin-right: 5px;
+  }
+
 }
 
 @media (max-width:435px) {
@@ -405,6 +556,14 @@ body{
 
   .pic-contianer{
     width: 80%;
+  }
+
+  .phone-container{
+    margin-right: 10%;
+  }
+
+  .email-container{
+    margin-right: 10%;
   }
 }
 
@@ -427,6 +586,13 @@ body{
     width: 70px;
   }
 
+  .phone-container{
+    margin-right: 5%;
+  }
+
+  .email-container{
+    margin-right: 5%;
+  }
 
 }
 
