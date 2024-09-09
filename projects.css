@@ -1,0 +1,293 @@
+h1{
+  font-size: 63px;
+ }
+
+.main{
+    margin: 0px 100px 40px 340px;
+    display: block;
+    padding: 30px;
+}
+
+
+
+a{
+  text-decoration: none;
+}
+
+/* Main Body*/
+.card {
+  box-shadow: 4px 8px 12px 4px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 20px; 
+  display: flex;
+  margin-top: 50px;
+  max-width: 85%;  
+}
+
+#project-brief{
+  margin-left: 2px;
+  margin-top: 3px;
+  color: lightslategrey;
+}
+
+img {
+  border-radius: 20px 5px 5px 20px;
+  max-width: 740px;
+  object-fit: cover;
+
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 40px 40px 40px 16px;
+  margin-left: 40px;
+  max-width: 300px;
+}
+
+
+hr{
+  margin-top: 20px;
+  border: 1px solid darkgray;
+}
+
+#project-desc{
+   color: rgb(65, 64, 64); 
+   margin-top: 30px;
+}
+
+
+/* Footer Styles */
+
+#hr-footer{
+  margin: 330px 1.2% 0px 1.2%;
+}
+
+hr.hr-resume{
+  border-top: 1px #d6d2d2;
+}
+
+.footer{
+  margin: 30px 3% 100px 3%;
+  display: flex;
+}
+
+.phone-container{
+  display: flex;
+  flex-direction: column;
+  margin-right: 25%;
+}
+
+.email-container{
+  display: flex;
+  flex-direction: column;
+  margin-right: 25%;
+}
+
+.footer-text{
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.footer-info{
+  font-size: 18px;
+}
+
+.icons{
+  flex-direction: row;
+}
+
+.logo{
+  width: 33px;
+  margin: 0px 5px 0px 0px;
+  cursor: pointer;
+}
+
+
+@media (max-width:1635px) {
+  .card img{
+    max-width: 600px;
+  }
+
+  .card{
+    margin-bottom: 100px;
+  }
+}
+
+@media (max-width:1536px) {
+  .card img{
+    object-fit: cover;
+    max-width: 700px;
+  }
+
+  .card{
+    margin-bottom: 100px;
+    max-width: 90%;
+  }
+
+  .main{
+    margin: 0px 100px 40px 215px;
+    display: block;
+    padding: 30px;
+  }
+}
+
+@media (max-width:1500px) {
+  .card img{
+    object-fit: cover;
+    max-width: 600px;
+  }
+}
+
+@media (max-width:1410px) {
+  .card img{
+    object-fit: cover;
+    max-width: 500px;
+  }
+
+}
+
+
+@media (max-width:1348px) {
+  
+  .card{
+    max-width: 94%;
+  }
+
+  .card img{
+    max-width: 600px;
+  }
+ 
+  .main{
+    margin: 0px 100px 40px 177px;
+    display: block;
+    padding: 30px;
+  }
+}
+
+@media (max-width:1300px) {
+  
+  .card{
+    max-width: 98%;
+  }
+}
+
+@media (max-width:1216px) {
+  
+  .card{
+    max-width: 100%;
+  }
+
+  .main{
+    margin: 0px 100px 40px 154px;
+    display: block;
+    padding: 30px;
+  }
+
+  .card img{
+    max-width: 550px;
+  }
+}
+
+@media (max-width:1177px) {
+  
+  .main{
+    margin: 0px 100px 40px 154px;
+    display: block;
+    padding: 30px;
+  }
+
+  .card img{
+    max-width: 500px;
+  }
+}
+
+@media (max-width:1135px) {
+  
+  .main{
+    margin: 0px 100px 40px 154px;
+    display: block;
+    padding: 30px;
+  }
+
+  .card img{
+    max-width: 450px;
+  }
+}
+
+@media (max-width:1100px) {
+  
+  .main{
+    margin: 0px 100px 40px 154px;
+    display: block;
+    padding: 30px;
+  }
+
+  .card img{
+    max-width: 420px;
+  }
+
+  #project-desc{
+    font-size: 19px;
+  } 
+}
+
+@media (max-width:1028px) {
+  
+  .card img{
+    max-width: 380px;
+  }
+
+  #project-desc{
+    font-size: 19px;
+  } 
+}
+
+@media (max-width:1015px) {
+  .card{
+    flex-direction: column;
+  }
+
+  .card img{
+    max-width: 100%;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  #project-desc{
+    font-size: 20px;
+    max-width: 93%;
+  } 
+
+  .container{
+    max-width: 100%;
+    margin-left: 10px;
+  }
+
+  .container h2 b{
+    font-size: 33px;
+  }
+
+  .container hr{
+    width: 50%;
+  }
+}
+
+
+@media (max-width:1000px) {
+  .footer{
+    width: 1000px;
+  }
+
+  #hr-footer{
+    width: 1000px;
+  }
+
+  .website-title{
+    width: 1000px;
+  }
+}
+
+
+

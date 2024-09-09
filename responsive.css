@@ -79,6 +79,8 @@ body{
 .pic-contianer{
   width: 45%;  
   flex-shrink: 0;
+  transition: 0.3s;
+
 
 }
 
@@ -88,6 +90,8 @@ body{
   height: auto;
   border-radius: 50%;
   flex-shrink: 0;
+  transition: 0.3s;
+
 
 }
 
@@ -97,6 +101,8 @@ body{
   flex-direction: column;
   padding: 0px 0px 0px 30px;
   font-size: 18px;
+  transition: 0.3s;
+
 }
 
 #about-me-info{
