@@ -285,6 +285,14 @@ hr.hr-resume{
     display: block;
     padding: 30px;
   }
+
+  .footer{
+    display: block;
+  }
+
+  .footer-info{
+    margin-bottom: 50px;
+  }
 }
 
 
@@ -321,7 +329,7 @@ hr.hr-resume{
 
 @media (max-width: 560px) {
   .main{
-    margin: 150px 20px 40px 40px;
+    margin: 150px 25px 40px 35px;
     display: block;
     padding: 30px;
   }
@@ -356,18 +364,14 @@ hr.hr-resume{
 
 @media (max-width: 485px) {
   .main{
-    margin: 150px -9px 40px 20px;
+    margin: 150px 0px 40px 10px;
     display: block;
     padding: 30px;
   }
 
-  #hr-footer{
-    width: 500px;
-  }
-
   .follow-container{
     margin-right: 0px;
-    width: 0px;
+    width: 100%;
   }
 
   .email-container{
@@ -382,12 +386,6 @@ hr.hr-resume{
 }
 
 @media (max-width: 460px) {
-  .main{
-    margin: 150px -36px 40px 20px;
-    display: block;
-    padding: 30px;
-  }
-
   .email-container{
     margin-right: 13%;
   }
@@ -396,8 +394,15 @@ hr.hr-resume{
     margin-right: 13%;
   }
 
+
+
 }
 
+@media (max-width:415px) {
+  .logo{
+    width: 27px;
+  }
+}
 
 @media (max-width: 400px) {
   .email-container{
@@ -417,7 +422,7 @@ hr.hr-resume{
   }
 
   .main{
-    margin: 110px 15px 40px 20px;
+    margin: 110px 0px 40px 10px;
     display: block;
     padding: 30px;
   }
