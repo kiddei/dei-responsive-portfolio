@@ -495,6 +495,16 @@ body{
 
 }
 
+@media (max-width:750px) {
+  .footer{
+    display: block;
+  }
+
+  .footer-info{
+    margin-bottom: 50px;
+  }
+}
+
 @media (max-width:551px) { 
   .phone-container{
     margin-right: 16%;
@@ -547,7 +557,7 @@ body{
 
   .follow-container{
     margin-right: 5px;
-    width: 5px;
+    width: 100%;
   }
 
   .click-options{
