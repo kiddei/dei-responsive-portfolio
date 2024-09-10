@@ -353,15 +353,41 @@ hr.hr-resume{
 }
 
 
-@media (max-width: 484px) {
+
+@media (max-width: 485px) {
   .main{
-    margin: 150px 15px 40px 20px;
+    margin: 150px -9px 40px 20px;
     display: block;
     padding: 30px;
   }
+
+  #hr-footer{
+    width: 500px;
+  }
+
+  .follow-container{
+    margin-right: 0px;
+    width: 0px;
+  }
+
+  .email-container{
+    margin-right: 10%;
+  }
+
+  .phone-container{
+    margin-right: 10%;
+  }
+
+  
 }
 
 @media (max-width: 460px) {
+  .main{
+    margin: 150px -36px 40px 20px;
+    display: block;
+    padding: 30px;
+  }
+
   .email-container{
     margin-right: 13%;
   }
@@ -371,6 +397,7 @@ hr.hr-resume{
   }
 
 }
+
 
 @media (max-width: 400px) {
   .email-container{
