@@ -84,6 +84,13 @@
   }
 }
 
+@media (max-width:435px) {
+  
+  .contact-inputs{
+    width: 318px;
+  }
+}
+
 @media (max-width:425px) {
   .contact-left-title div{
     font-size: 18px;
@@ -125,7 +132,7 @@
 }
 
 
-@media (max-width:350px) {
+@media (max-width:353px) {
   .contact-inputs{
     font-size: 14px;
   }
